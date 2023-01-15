@@ -7,7 +7,7 @@ public static void main(String args[]) throws InterruptedException{
          new Product("A", 10000),
          new Product("X", 20099),
          new Product("C", 3000),
-         new Product("A", 4000),
+ 
 	};
 	Context ctx=new Context(new BubbleSort());
 	ctx.arrange(objArray);
